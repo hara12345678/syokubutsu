@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body {
+    color: #3d496b;
+    background-image: url("kabe.jpg");
+}
+
+a {
+    color: #3d496b;
+    text-decoration: none;
+}
+
+
+a:link {
+    color: #3d496b;
+}
+
+a:visited {
+    color: #3d496b;
+}
+
+a:hover {
+    color: #5D698B;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #5D698B;
+}
+
+
+/* --- 1. グローバル（モバイルファーストの基本）--- */
+/* 600px未満のモバイルにも適用される */
+.container {
+    width: 100%; /* スマホでは画面いっぱいに広げる */
+    padding: 0 15px; /* 画面の端に余白を作る */
+}
+
+p {
+    font-size: 16px; /* スマホでの標準フォントサイズ */
+    line-height: 1.5;
+}
+
+/* --- 2. 600px以上の画面用スタイル（ご提示のコード）--- */
+@media screen and (min-width: 600px) {
+    /* メインコンテンツエリアの最大幅を設定し、中央に配置 */
+    .container {
+        max-width: 1200px; /* 大画面では幅を制限 */
+        margin: 0 auto;    /* 中央寄せ */
+        padding: 0;        /* ここで左右の余白は不要になるためリセット */
+    }
+
+    /* 段落のフォントサイズを大きくし、行間を広げて読みやすくする */
+    p {
+        font-size: 18px; /* 大画面ではフォントを大きく */
+        line-height: 1.6;
+    }
+}
+
+img {
+    max-width: 100%;
+    /* これが最も重要な設定です */
+    height: auto;
+    /* 縦横比を維持します */
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+

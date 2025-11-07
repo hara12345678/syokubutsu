@@ -10,7 +10,6 @@ a {
     text-decoration: none;
 }
 
-
 a:link {
     color: #3d496b;
 }
@@ -28,40 +27,39 @@ a:active {
     color: #5D698B;
 }
 
-
-/* --- 1. �O���[�o���i���o�C���t�@�[�X�g�̊�{�j--- */
-/* 600px�����̃��o�C���ɂ��K�p����� */
+/* --- 1. グローバル（モバイルファーストの基本）--- */
+/* 600px未満のモバイルにも適用される */
 .container {
-    width: 100%; /* �X�}�z�ł͉�ʂ����ς��ɍL���� */
-    padding: 0 15px; /* ��ʂ̒[�ɗ]������� */
+    width: 100%; /* スマホでは画面いっぱいに広げる */
+    padding: 0 15px; /* 画面の端に余白を作る */
 }
 
 p {
-    font-size: 16px; /* �X�}�z�ł̕W���t�H���g�T�C�Y */
+    font-size: 16px; /* スマホでの標準フォントサイズ */
     line-height: 1.5;
 }
 
-/* --- 2. 600px�ȏ�̉�ʗp�X�^�C���i���񎦂̃R�[�h�j--- */
+/* --- 2. 600px以上の画面用スタイル（ご提示のコード）--- */
 @media screen and (min-width: 600px) {
-    /* ���C���R���e���c�G���A�̍ő啝��ݒ肵�A�����ɔz�u */
+    /* メインコンテンツエリアの最大幅を設定し、中央に配置 */
     .container {
-        max-width: 1200px; /* ���ʂł͕��𐧌� */
-        margin: 0 auto;    /* ������ */
-        padding: 0;        /* �����ō��E�̗]���͕s�v�ɂȂ邽�߃��Z�b�g */
+        max-width: 1200px; /* 大画面では幅を制限 */
+        margin: 0 auto;    /* 中央寄せ */
+        padding: 0;        /* ここで左右の余白は不要になるためリセット */
     }
 
-    /* �i���̃t�H���g�T�C�Y��傫�����A�s�Ԃ��L���ēǂ݂₷������ */
+    /* 段落のフォントサイズを大きくし、行間を広げて読みやすくする */
     p {
-        font-size: 18px; /* ���ʂł̓t�H���g��傫�� */
+        font-size: 18px; /* 大画面ではフォントを大きく */
         line-height: 1.6;
     }
 }
 
 img {
     max-width: 100%;
-    /* ���ꂪ�ł��d�v�Ȑݒ�ł� */
+    /* これが最も重要な設定です */
     height: auto;
-    /* �c������ێ����܂� */
+    /* 縦横比を維持します */
 }
 
 h1 {

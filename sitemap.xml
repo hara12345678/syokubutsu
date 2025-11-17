@@ -41,9 +41,20 @@
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/ichigo1.html</loc>
-  <lastmod>2025-05-10</lastmod>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/ichigo2.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/ichigo3.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/ichigo4.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/ichigo5.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/ichijiku.html</loc>
   <lastmod>2025-08-15</lastmod>
@@ -674,8 +685,12 @@
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/heari-becchi.html</loc>
-  <lastmod>2025-08-03</lastmod>
-  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/heari-becchi1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/heari-becchi2.html</loc>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/enngeid1.html</loc>

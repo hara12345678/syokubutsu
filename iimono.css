@@ -2,7 +2,7 @@
 
 body {
     color: #3d496b;
-    background-image: url("kabe.jpg");
+    background-color: #f3f0ee;
 }
 
 a {
@@ -70,3 +70,24 @@ h2 {
     font-size: 1rem;
 }
 
+/* 1. リストの見た目をリセット */
+nav ol {
+    list-style: none; /* リストの点（・）を非表示にする */
+    padding: 0;      /* 左側のパディング（余白）を削除 */
+    margin: 0;       /* マージン（余白）を削除 */
+    display: flex;   /* 子要素（<li>）を横並びにする */
+    flex-wrap: wrap; /* 画面が狭くなったら折り返す */
+}
+
+/* 2. 各リストアイテム（項目）の設定 */
+nav ol li {
+    display: inline; /* インライン要素として扱う（flex-wrapを活かすため） */
+    font-size: 0.9em; /* 文字を少し小さくして見やすくする */
+}
+
+/* 3. 区切り文字（ > ）の追加 */
+/* 最後の項目以外の後ろに「>」を挿入する */
+nav ol li:not(:last-child)::after {
+    content: " > "; /* 挿入する文字 */
+    padding: 0 5px; /* 区切り文字の左右に少しスペースを開ける */
+}

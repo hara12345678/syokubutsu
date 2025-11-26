@@ -648,9 +648,14 @@
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/marigold.html</loc>
-  <lastmod>2025-06-15</lastmod>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/marigold1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/marigold2.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/yaburan.html</loc>
   <priority>0.7</priority>

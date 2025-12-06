@@ -273,8 +273,15 @@
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/yuzu.html</loc>
-  <lastmod>2024-12-31</lastmod>
-  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/yuzu1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/yuzu2.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/yuzu3.html</loc>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/momo.html</loc>
@@ -1465,5 +1472,7 @@
 <url>
   <loc>https://syokubutsu.pages.dev/rakkasei.html</loc>
 </url>
-
+<url>
+  <loc>https://syokubutsu.pages.dev/kabu.html</loc>
+</url>
 </urlset>

@@ -702,6 +702,9 @@
   <loc>https://syokubutsu.pages.dev/kanenonaruki.html</loc>
 </url>
 <url>
+  <loc>https://syokubutsu.pages.dev/hakubotan.html</loc>
+</url>
+<url>
   <loc>https://syokubutsu.pages.dev/teimenkyuusui.html</loc>
   <priority>0.7</priority>
 </url>
@@ -779,10 +782,6 @@
 <url>
   <loc>https://syokubutsu.pages.dev/enngeid12_2023.html</loc>
   <lastmod>2024-12-01</lastmod>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://syokubutsu.pages.dev/engeibon.htm</loc>
   <priority>0.7</priority>
 </url>
 <url>

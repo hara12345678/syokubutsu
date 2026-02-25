@@ -3,10 +3,6 @@
 
 <!--  origin  --> 
 <url>
-  <loc>https://syokubutsu.pages.dev/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
   <loc>https://syokubutsu.pages.dev/akebi.html</loc>
   <lastmod>2025-04-27</lastmod>
   <priority>0.7</priority>

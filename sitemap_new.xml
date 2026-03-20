@@ -321,7 +321,15 @@
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/jyagaimo.html</loc>
-  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/jyagaimo1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/jyagaimo2.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/jyagaimo3.html</loc>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/soba.html</loc>
@@ -412,10 +420,10 @@
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/kuremachisu3.html</loc>
-   <lastmod>2024-10-06</lastmod>
-  <priority>0.7</priority>
 </url>
-
+<url>
+  <loc>https://syokubutsu.pages.dev/kuremachisu4.html</loc>
+</url>
 <url>
   <loc>https://syokubutsu.pages.dev/gekkeijyu.html</loc>
   <priority>0.7</priority>

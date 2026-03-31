@@ -22,8 +22,6 @@
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/anzu1.html</loc>
-  <lastmod>2024-10-06</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/anzu2.html</loc>
@@ -33,8 +31,6 @@
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/ichigo.html</loc>
-  <lastmod>2025-10-06</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/ichigo1.html</loc>
@@ -132,11 +128,23 @@
   <loc>https://syokubutsu.pages.dev/sakuranbo.html</loc>
   <priority>0.7</priority>
 </url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/sumomo.html</loc>
-  <lastmod>2025-07-19</lastmod>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/sumomo1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/sumomo2.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/sumomo3.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/sumomo4.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/nashi.html</loc>
   <priority>0.7</priority>
@@ -1500,4 +1508,9 @@
 <url>
   <loc>https://syokubutsu.pages.dev/kabu.html</loc>
 </url>
+
+<url>
+  <loc>https://syokubutsu.pages.dev/sancyu.html</loc>
+</url>
+
 </urlset>

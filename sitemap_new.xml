@@ -479,11 +479,17 @@
   <lastmod>2025-05-10</lastmod>
   <priority>0.7</priority>
 </url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/tsutsuji.html</loc>
-  <lastmod>2024-09-27</lastmod>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/tsutsuji1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/tsutsuji2.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/donguri.html</loc>
   <priority>0.7</priority>

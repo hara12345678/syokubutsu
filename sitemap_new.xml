@@ -50,9 +50,14 @@
 
 <url>
   <loc>https://syokubutsu.pages.dev/ichijiku.html</loc>
-  <lastmod>2025-08-15</lastmod>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/ichijiku1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/ichijiku2.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/ume.html</loc>
   <lastmod>2024-10-06</lastmod>
@@ -147,8 +152,17 @@
 
 <url>
   <loc>https://syokubutsu.pages.dev/nashi.html</loc>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/nashi1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/nashi2.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/nashi3.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/biwa.htm</loc>
   <lastmod>2024-10-12</lastmod>

@@ -427,20 +427,15 @@
    <lastmod>2024-09-16</lastmod>
   <priority>0.7</priority>
 </url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/kuremachisu.html</loc>
-   <lastmod>2025-05-04</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/kuremachisu1.html</loc>
-   <lastmod>2024-10-06</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/kuremachisu2.html</loc>
-   <lastmod>2024-10-06</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/kuremachisu3.html</loc>
@@ -448,6 +443,10 @@
 <url>
   <loc>https://syokubutsu.pages.dev/kuremachisu4.html</loc>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/kuremachisu5.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/gekkeijyu.html</loc>
   <priority>0.7</priority>

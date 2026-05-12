@@ -323,23 +323,23 @@
   <loc>https://syokubutsu.pages.dev/edamame.html</loc>
   <priority>0.7</priority>
 </url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/satsumaimo.html</loc>
-  <lastmod>2024-12-07</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/satsumaimo1.html</loc>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/satsumaimo2.html</loc>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/satsumaimo3.html</loc>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/satsumaimo4.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/jyagaimo.html</loc>
 </url>

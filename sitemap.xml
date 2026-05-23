@@ -356,10 +356,17 @@
   <loc>https://syokubutsu.pages.dev/soba.html</loc>
   <priority>0.7</priority>
 </url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/tomato.html</loc>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/tomato1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/tomato2.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/nira.html</loc>
   <priority>0.7</priority>

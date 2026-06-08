@@ -409,10 +409,20 @@
   <loc>https://syokubutsu.pages.dev/rosemary.html</loc>
   <priority>0.7</priority>
 </url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/ajisai.html</loc>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/ajisai1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/ajisai2.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/ajisai3.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/ichii.html</loc>
   <priority>0.7</priority>

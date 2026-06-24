@@ -244,23 +244,23 @@
   <loc>https://syokubutsu.pages.dev/prune.html</loc>
   <priority>0.7</priority>
 </url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/popoh.html</loc>
-  <lastmod>2025-08-31</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/popoh1.html</loc>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/popoh2.html</loc>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/popoh3.html</loc>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/popoh4.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/kinkan.html</loc>
   <lastmod>2025-03-19</lastmod>

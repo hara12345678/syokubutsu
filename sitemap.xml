@@ -173,40 +173,21 @@
   <loc>https://syokubutsu.pages.dev/muscat.html</loc>
   <priority>0.7</priority>
 </url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/blackberry.html</loc>
-  <lastmod>2025-07-19</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/blackberry1.html</loc>
-  <lastmod>2025-02-16</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/blackberry2.html</loc>
-  <lastmod>2025-02-16</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/blackberry3.html</loc>
-  <lastmod>2025-02-16</lastmod>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/blackberry4.html</loc>
-  <lastmod>2025-02-16</lastmod>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://syokubutsu.pages.dev/blackberry5.html</loc>
-  <lastmod>2025-02-16</lastmod>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://syokubutsu.pages.dev/blackberry6.html</loc>
-  <lastmod>2025-02-16</lastmod>
-  <priority>0.7</priority>
 </url>
 
 <url>
@@ -397,9 +378,17 @@
 <url>
   <loc>https://syokubutsu.pages.dev/mitsuba.html</loc>
 </url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/mint.html</loc>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/mint1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/mint2.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/mukago.html</loc>
   <lastmod>2024-09-29</lastmod>
@@ -701,11 +690,17 @@
   <loc>https://syokubutsu.pages.dev/habotan.html</loc>
   <priority>0.7</priority>
 </url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/fuuran.html</loc>
-  <lastmod>2025-07-19</lastmod>
-  <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://syokubutsu.pages.dev/fuuran1.html</loc>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/fuuran2.html</loc>
+</url>
+
 <url>
   <loc>https://syokubutsu.pages.dev/furiijia.html</loc>
   <lastmod>2025-04-20</lastmod>

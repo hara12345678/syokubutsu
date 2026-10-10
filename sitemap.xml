@@ -755,11 +755,12 @@
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/lavender.html</loc>
-  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://syokubutsu.pages.dev/lycoris.html</loc>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/ryuunohige.html</loc>
-  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://syokubutsu.pages.dev/kanenonaruki.html</loc>

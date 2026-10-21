@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://syokubutsu.pages.dev/sitemap.xml

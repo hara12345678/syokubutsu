@@ -1,93 +1,239 @@
 @charset "utf-8";
 
-body {
-    color: #3d496b;
-    background-color: #f3f0ee;
+/* 色はここだけ変えれば全ページに反映されます */
+:root {
+    --text: #3d496b;
+    --link-hover: #5d698b;
+    --bg: #f3f0ee;
+    --line: #3d496b;
+    --muted: #6b7591;
 }
 
-a {
-    color: #3d496b;
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0 16px;
+    color: var(--text);
+    background-color: var(--bg);
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+}
+
+a,
+a:link,
+a:visited {
+    color: var(--text);
     text-decoration: none;
 }
 
-a:link {
-    color: #3d496b;
-}
-
-a:visited {
-    color: #3d496b;
-}
-
-a:hover {
-    color: #5D698B;
-    text-decoration: underline;
-}
-
+a:hover,
 a:active {
-    color: #5D698B;
-}
-
-/* --- 1. グローバル（モバイルファーストの基本）--- */
-/* 600px未満のモバイルにも適用される */
-.container {
-    width: 100%; /* スマホでは画面いっぱいに広げる */
-    padding: 0 15px; /* 画面の端に余白を作る */
-}
-
-p {
-    font-size: 16px; /* スマホでの標準フォントサイズ */
-    line-height: 1.5;
-}
-
-/* --- 2. 600px以上の画面用スタイル（ご提示のコード）--- */
-@media screen and (min-width: 600px) {
-    /* メインコンテンツエリアの最大幅を設定し、中央に配置 */
-    .container {
-        max-width: 1200px; /* 大画面では幅を制限 */
-        margin: 0 auto;    /* 中央寄せ */
-        padding: 0;        /* ここで左右の余白は不要になるためリセット */
-    }
-
-    /* 段落のフォントサイズを大きくし、行間を広げて読みやすくする */
-    p {
-        font-size: 18px; /* 大画面ではフォントを大きく */
-        line-height: 1.6;
-    }
+    color: var(--link-hover);
+    text-decoration: underline;
 }
 
 img {
     max-width: 100%;
-    /* これが最も重要な設定です */
     height: auto;
-    /* 縦横比を維持します */
+}
+
+/* ページ全体の幅 */
+.site-header,
+main,
+.site-footer {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+/* 上の見出し部分 */
+.site-header {
+    padding-top: 12px;
+    padding-bottom: 8px;
+    border-bottom: 10px solid var(--line);
+}
+
+.site-title {
+    margin: 0 0 4px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.site-nav {
+    font-size: 0.9rem;
+}
+
+.site-nav a {
+    display: inline-block;
+    margin-right: 0.6em;
+}
+
+/* ページの題名 */
+.page-head {
+    padding: 12px 0 4px;
 }
 
 h1 {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: 0.4em 0;
 }
 
 h2 {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    margin: 0.2em 0 0.4em;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--line);
+}
+
+h3 {
     font-size: 1rem;
+    margin: 1em 0 0.4em;
 }
 
-/* 1. リストの見た目をリセット */
+.tags a {
+    margin-right: 0.3em;
+}
+
+.address,
+.date {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 0.2em 0;
+}
+
+/* 記事ひとつ分。上の太い線は今までの <hr size="10"> の代わり */
+section {
+    border-top: 10px solid var(--line);
+    padding: 12px 0 8px;
+}
+
+p {
+    margin: 0.6em 0 1em;
+}
+
+figure {
+    margin: 1em 0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+}
+
+/* 記事の下のリンク(【〇〇TOP】や パンくずリスト) */
+.entry-links {
+    margin: 1em 0;
+    font-size: 0.9rem;
+}
+
+.entry-links a {
+    margin-right: 0.3em;
+}
+
 nav ol {
-    list-style: none; /* リストの点（・）を非表示にする */
-    padding: 0;      /* 左側のパディング（余白）を削除 */
-    margin: 0;       /* マージン（余白）を削除 */
-    display: flex;   /* 子要素（<li>）を横並びにする */
-    flex-wrap: wrap; /* 画面が狭くなったら折り返す */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/* 2. 各リストアイテム（項目）の設定 */
-nav ol li {
-    display: inline; /* インライン要素として扱う（flex-wrapを活かすため） */
-    font-size: 0.9em; /* 文字を少し小さくして見やすくする */
-}
-
-/* 3. 区切り文字（ > ）の追加 */
-/* 最後の項目以外の後ろに「>」を挿入する */
 nav ol li:not(:last-child)::after {
-    content: " > "; /* 挿入する文字 */
-    padding: 0 5px; /* 区切り文字の左右に少しスペースを開ける */
+    content: " > ";
+    padding: 0 5px;
+}
+
+/* リンクの一覧 */
+ul.links {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.6em 0 1.4em;
+}
+
+ul.links li {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.blue {
+    color: #0066cc;
+}
+
+/* 表(お店の一覧など) */
+table.data {
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 0.9rem;
+}
+
+table.data td,
+table.data th {
+    border: 1px solid var(--line);
+    padding: 4px 8px;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+/* 下のあいさつ部分 */
+.site-footer {
+    border-top: 10px solid var(--line);
+    padding-top: 8px;
+    padding-bottom: 24px;
+    font-size: 0.9rem;
+}
+
+.site-footer p {
+    margin: 0.3em 0;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 17px;
+    }
+}
+
+/* 横に長い表は、表だけ横にスクロールできるように */
+.table-wrap {
+    overflow-x: auto;
+    margin: 1em 0;
+}
+
+/* 列の多い表は、つぶさずに横へスクロールさせる */
+.table-wrap td,
+.table-wrap th {
+    min-width: 6em;
+    overflow-wrap: normal;
+}
+
+/* ゲーム日記などの、題名の上の小さなリンク */
+.crumb {
+    font-size: 0.9rem;
+    margin: 0.2em 0;
+}
+
+/* 今までの書き方(<hr size="10"> や <hr size="2">)で書いたページも、同じ線になるように */
+hr {
+    border: 0;
+    border-top: 10px solid var(--line);
+    margin: 12px 0;
+}
+
+hr[size="2"],
+hr[size="1"] {
+    border-top-width: 2px;
 }

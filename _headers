@@ -2,3 +2,6 @@
   Content-Type: application/xml
   Cache-Control: no-store
   Access-Control-Allow-Origin: *
+
+/template.html
+  X-Robots-Tag: noindex
